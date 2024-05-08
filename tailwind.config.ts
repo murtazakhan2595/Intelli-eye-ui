@@ -11,7 +11,7 @@ const config = {
     './src/app/**/*.{js,ts,jsx,tsx}',
 	],
   prefix: "",
-  theme: {
+  theme: {                                                      
     container: {
       center: true,
       padding: "2rem",
