@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import {fontFamily} from "tailwindcss/defaultTheme"
 
 const config = {
   darkMode: ["class"],
@@ -7,6 +8,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    './src/app/**/*.{js,ts,jsx,tsx}',
 	],
   prefix: "",
   theme: {
@@ -72,6 +74,9 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        graphik: ['var(--font-graphik)', ...fontFamily.sans],
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
