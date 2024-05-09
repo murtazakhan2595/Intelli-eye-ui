@@ -50,6 +50,7 @@ export default function Home() {
           </div>
         </div>
         <div className="absolute top-[1971px] left-[233px] w-[990px] h-[990px] opacity-50 bg-cyan-800 rounded-full blur-[600px]" />
+        <div className="absolute w-[817px] h-[817px] top-[3180px] left-[320px] opacity-30 bg-stone-400 rounded-full blur-[600px]" />
       </div>
     </>
   );
