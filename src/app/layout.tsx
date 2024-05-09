@@ -32,8 +32,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
-      <body className={cn('font-graphik', graphik.variable)}>{children}</body>
+    <html lang="en">
+      <body
+        className={cn(
+          "min-h-screen bg-background font-graphik antialiased",
+          graphik.variable
+        )}
+      >
+        <div className="min-h-screen ">{children}</div>
+      </body>
     </html>
   );
 }

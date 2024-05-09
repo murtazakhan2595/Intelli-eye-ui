@@ -60,3 +60,10 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .bg-background-image {
+    background-image: url('/bg.png');
+    /* height: 100vh; */
+    /* height: 500px; */
+    /* Additional styles like background size, position, etc. can be added here */
+  }
