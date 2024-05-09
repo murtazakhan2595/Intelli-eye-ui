@@ -4,20 +4,23 @@ import { Button } from "@/components/ui/button";
 export default function Hero() {
   return (
     <div>
-      <h3 className="font-normal text-3xl leading-[88px] w-fit">
-        Introducing the
-      </h3>
+      <div className="text-white text-3xl font-normal  leading-[88px] tracking-tight">
+        Introducing the{" "}
+      </div>
       <div className="w-[678px] flex flex-col gap-10">
-        <h1 className="w-[594px] text-7xl leading-[88px] font-medium">
+        <div className="w-[594px] h-[263px] text-white text-[74px] font-medium  leading-[88px] tracking-tight">
           Next Generation of Anomaly Detection
-        </h1>
-        <p className="font-normal text-[28px]">
-          Harness the power of state-of-the-art AI to monitor, detect, and
-          analyze anomalies in real-time
-        </p>
-        <Button className="px-20 py-11 w-fit">
-          <span className="text-white font-medium  text-[32px]">Try our API</span>
-        </Button>
+        </div>
+        <div className="w-[678px] text-white text-[28px] font-normal  leading-7 tracking-tight">
+          Harness the power of state-of-the-art AI to
+          <br /> monitor, detect, and analyze anomalies in real <br />
+          -time
+        </div>
+        <div className="w-[329px] h-[88px] px-20 bg-indigo-600 rounded-[15px] justify-center items-center gap-2.5 inline-flex">
+          <div className="text-white text-[32px] font-medium  leading-[88px] tracking-tight">
+            Try our API
+          </div>
+        </div>
       </div>
     </div>
   );

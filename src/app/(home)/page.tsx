@@ -4,13 +4,14 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Integrations from "./components/Integrations";
+import Testimonials from "./components/Testimonials";
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen relative">
+      <div className="min-h-screen relative overflow-hidden">
         <img
           src="/bg.png"
-          className="absolute inset-0 w-full "
+          className="w-full aspect-[1.72]  absolute top-0 left-0"
           alt="Background"
         />
         <div className="relative z-10 px-40">
@@ -18,6 +19,7 @@ export default function Home() {
           <Hero />
           <Features />
           <Integrations />
+          <Testimonials />
         </div>
         <div className="absolute top-0 left-0">
           <div
@@ -34,19 +36,20 @@ export default function Home() {
         </div>
         <div className="absolute -right-[252px] top-[1306px] w-[817px] h-[817px] opacity-40 bg-stone-400 rounded-full blur-[600px] z-20" />
         <div className="absolute top-[192px] left-[783px] ">
-          <div className="min-h-[60px] min-w-[142px] font-bold text-xs text-[#4452FE] flex items-center justify-center border-[1.52px] border-solid border-[#4452FE] rounded-[11px]">
-            Violence detected
+          <div className="w-[245.62px] h-[223px] relative">
+            <img src="/picture2.png" alt="" />
           </div>
         </div>
         <div className="absolute top-[286px] left-[1241px]">
-          <div className="min-h-[60px] min-w-[142px] font-bold text-xs text-[#4452FE] flex items-center justify-center border-[1.52px] border-solid border-[#4452FE] rounded-[11px]">
-            Human fall detected
+          <div className="w-[184.37px] h-[151px] relative">
+            <img src="/picture1.png" alt="" />
           </div>
-          <img className="w-[160px] h-[90px]" src="/human-fall.svg" />
         </div>
-        <div className="absolute top-[634.92px] left-[1060px]">
-          <div className="min-h-[60px] min-w-[142px] font-bold text-xs text-[#4452FE] flex items-center justify-center border-[1.52px] border-solid border-[#4452FE] rounded-[11px]">
-            Fire Deteccted
+        <div className="absolute top-[630px] left-[1061px]">
+          <div className="w-[313.62px] h-[264.53px] relative">
+            
+              <img src="/picture3.png" alt="" />
+           
           </div>
         </div>
         <div className="absolute top-[1971px] left-[233px] w-[990px] h-[990px] opacity-50 bg-cyan-800 rounded-full blur-[600px]" />

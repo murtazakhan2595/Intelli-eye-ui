@@ -69,7 +69,7 @@ export default function Integrations() {
             passages, and more recently with desktop
           </div>
         </div>
-        <div className="w-[675.77px] relative">
+        <div className="w-[675.77px] h-[1013px] relative">
           <div className="w-[828.22px] h-[0px] left-[36.26px] top-[35.44px] absolute origin-top-left rotate-90 border border-indigo-600"></div>
           <div className="w-[70.05px] h-[70.05px] left-0 top-0 absolute">
             <div className="w-[70.05px] h-[70.05px] left-0 top-0 absolute bg-indigo-600 rounded-full" />

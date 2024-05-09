@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <div className="px-12 py-16 flex items-center justify-center flex-col gap-[76px] mt-14">
+    <div className="px-12 py-16 flex items-center justify-center flex-col gap-[76px] mt-56">
       <div className=" flex-col justify-start items-center gap-5 inline-flex">
         <div className="justify-start items-center gap-2.5 inline-flex">
           <div className="text-white text-5xl font-normal  leading-10 tracking-tight">
