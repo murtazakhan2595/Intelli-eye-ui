@@ -66,13 +66,13 @@ export default function Integrations() {
             capabilities into your surveillance systems. Begin by installing the
             Eagle Eye NPM module with a single command. Next, initialize Eagle
             Eye in your project and start detecting anomalies in your visual
-            input streams effortlessly. Whether you're monitoring for incidents
-            of violence, human falls, fire, smoke, or unauthorized entry, Eagle
-            Eye API provides reliable and real-time predictions. Additionally,
-            you can leverage Eagle Eye's thermal imaging capabilities to detect
-            anomalies in thermal input streams with ease. Stay ahead of
-            potential threats and enhance the security and safety measures of
-            your surveillance systems today with Eagle Eye API.
+            input streams effortlessly. Whether you&apos;re monitoring for
+            incidents of violence, human falls, fire, smoke, or unauthorized
+            entry, Eagle Eye API provides reliable and real-time predictions.
+            Additionally, you can leverage Eagle Eye&apos;s thermal imaging
+            capabilities to detect anomalies in thermal input streams with ease.
+            Stay ahead of potential threats and enhance the security and safety
+            measures of your surveillance systems today with Eagle Eye API.
           </div>
         </div>
         <div className="w-[675.77px] h-[1160px] relative">
@@ -101,9 +101,9 @@ export default function Integrations() {
               4
             </div>
           </div>
-          <div class="w-[70.05px] h-[70.05px] left-[-0px] top-[960px] absolute">
-            <div class="w-[70.05px] h-[70.05px] left-0 top-0 absolute bg-indigo-600 rounded-full"></div>
-            <div class="left-[29.67px] top-[20.60px] absolute text-white text-[28.02px] font-medium ">
+          <div className="w-[70.05px] h-[70.05px] left-[-0px] top-[960px] absolute">
+            <div className="w-[70.05px] h-[70.05px] left-0 top-0 absolute bg-indigo-600 rounded-full"></div>
+            <div className="left-[29.67px] top-[20.60px] absolute text-white text-[28.02px] font-medium ">
               5
             </div>
           </div>
