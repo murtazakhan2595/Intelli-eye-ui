@@ -67,3 +67,6 @@
     /* height: 500px; */
     /* Additional styles like background size, position, etc. can be added here */
   }
+    html {
+      scroll-behavior: smooth;
+    }

@@ -16,8 +16,14 @@ export default function Home() {
         />
         <div className="relative z-10 px-40">
           <Nav />
-          <Hero />
-          <Features />
+          <div id="home">
+            <Hero />
+          </div>
+
+          <div id="about">
+
+            <Features />
+          </div>
           <Integrations />
           <Testimonials />
         </div>
@@ -47,9 +53,7 @@ export default function Home() {
         </div>
         <div className="absolute top-[630px] left-[1061px]">
           <div className="w-[313.62px] h-[264.53px] relative">
-            
-              <img src="/picture3.png" alt="" />
-           
+            <img src="/picture3.png" alt="" />
           </div>
         </div>
         <div className="absolute top-[1971px] left-[233px] w-[990px] h-[990px] opacity-50 bg-cyan-800 rounded-full blur-[600px]" />

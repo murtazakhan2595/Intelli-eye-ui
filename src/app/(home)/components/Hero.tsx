@@ -17,9 +17,11 @@ export default function Hero() {
           -time
         </div>
         <div className="w-[329px] h-[88px] px-20 bg-indigo-600 rounded-[15px] justify-center items-center gap-2.5 inline-flex">
-          <div className="text-white text-[32px] font-medium  leading-[88px] tracking-tight">
-            Try our API
-          </div>
+          <a href="#integration">
+            <div className="text-white text-[32px] font-medium leading-[88px] tracking-tight cursor-pointer">
+              Try our API
+            </div>
+          </a>
         </div>
       </div>
     </div>
