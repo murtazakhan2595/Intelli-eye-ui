@@ -41,7 +41,7 @@ export default function Integrations() {
             </div>
             <div className="w-[456px] text-white text-xl font-normal leading-10 tracking-tight">
               It can be easily integrated with any platform you name like React
-              js, ruby, Next js, or Pure JS.  It is also an open source api any
+              js, ruby, Next js, or Pure JS. It is also an open source api any
               one is more then welcomed to contribute
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Integrations() {
           <div className="w-full text-3xl font-semibold">
             Get started with Eagle Eye
           </div>
-          <div className="mt-6 w-full text-lg leading-5">
+          <div className="mt-6 w-full text-lg leading-5 text-balance">
             Getting started with Eagle Eye API is a breeze. With just a few
             simple steps, you can integrate our powerful anomaly detection
             capabilities into your surveillance systems. Begin by installing the
@@ -69,6 +69,7 @@ export default function Integrations() {
             input streams effortlessly. Whether you&apos;re monitoring for
             incidents of violence, human falls, fire, smoke, or unauthorized
             entry, Eagle Eye API provides reliable and real-time predictions.
+            <br/>
             Additionally, you can leverage Eagle Eye&apos;s thermal imaging
             capabilities to detect anomalies in thermal input streams with ease.
             Stay ahead of potential threats and enhance the security and safety

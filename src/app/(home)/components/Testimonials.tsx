@@ -35,7 +35,7 @@ export default function Testimonials() {
                       />
                       <div className="absolute top-[115px] left-[63px] w-[200px] flex items-center justify-center flex-col">
                         <div className="text-2xl font-bold ">
-                          Hannah Schmitt
+                          Ahmed Murtaza
                         </div>
                         <div className="relative mt-4 text-xs">
                           Lead Developer
