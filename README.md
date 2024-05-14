@@ -1,3 +1,11 @@
+## website Preview
+![image](https://github.com/murtazakhan2595/Intelli-eye-ui/assets/87115246/29fb4001-a4aa-438f-983f-5dd0b7d6126d)
+![image](https://github.com/murtazakhan2595/Intelli-eye-ui/assets/87115246/af07ac74-8e6b-497f-9535-d8a7073d5698)
+![image](https://github.com/murtazakhan2595/Intelli-eye-ui/assets/87115246/57682b9a-d3af-4dff-96d1-28d476457f60)
+![image](https://github.com/murtazakhan2595/Intelli-eye-ui/assets/87115246/74acccf0-deda-46ed-86d0-ee9606e82126)
+![image](https://github.com/murtazakhan2595/Intelli-eye-ui/assets/87115246/3d999629-8fad-4eef-b9d9-fa5ace2bcebb)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
